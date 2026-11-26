@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HearthLedger — the household budget book</title>
+<meta name="description" content="HearthLedger is a household budget book that runs entirely in your browser: track spending, plan each category, save toward goals, and see the month at a glance.">
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">⌂</span>
+      <span class="brand-name">HearthLedger</span>
+      <span class="brand-tag">the household budget book</span>
+    </a>
+    <nav class="site-nav" aria-label="Sections">
+      <a href="#/" data-route="">Dashboard</a>
+      <a href="#/expenses" data-route="expenses">Expenses</a>
+      <a href="#/budget" data-route="budget">Budget planner</a>
+      <a href="#/goals" data-route="goals">Savings goals</a>
+      <a href="#/reports" data-route="reports">Reports</a>
+    </nav>
+  </div>
+</header>
+<main id="app" class="wrap" aria-live="polite"></main>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p><strong>HearthLedger</strong> keeps your household money on your own device. Nothing leaves this browser: every figure you enter is stored in this browser only, and the demo household can be reset or cleared at any time from the Dashboard.</p>
+    <p class="fine">Made for the Marlowe household's kitchen-table budgeting. All figures are editable — change any number and the whole book updates.</p>
+  </div>
+</footer>
+</body>
+</html>
